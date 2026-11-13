@@ -1,14 +1,72 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="My first website deployed using GitHub Pages."
+    />
+
     <title>My First Website</title>
+
+    <style>
+      body {
+          font-family: Arial, sans-serif;
+          background-color: #f4f4f4;
+          text-align: center;
+          padding: 30px;
+      }
+
+      h1 {
+          color: darkblue;
+      }
+
+      h2 {
+          color: darkgreen;
+      }
+
+      p {
+          color: #555;
+          font-size: 16px;
+          line-height: 1.5;
+      }
+
+      a {
+          display: inline-block;
+          background-color: indigo;
+          color: white;
+          padding: 10px 20px;
+          text-decoration: none;
+          border-radius: 4px;
+          font-size: 16px;
+      }
+
+      a:hover {
+          background-color: darkslateblue;
+      }
+    </style>
   </head>
+
   <body>
-    <h1>Welcome to My Website</h1>
+    <header>
+      <h1>Welcome!</h1>
+      <p>This is my first website deployed using GitHub Pages.</p>
+    </header>
 
-    <p>This is my first website deployed using GitHub Pages.</p>
+    <main>
+      <section>
+        <h2>WAD Assignments</h2>
+        <p>Click below to view my assignments.</p>
 
-    <h2>About Me</h2>
-    <p>I am learning Git, GitHub, and web development.</p>
+        <a
+          href="./wad%20assignment%202/index.html"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Assignment 2
+        </a>
+      </section>
+    </main>
   </body>
 </html>
